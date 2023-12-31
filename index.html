@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Countdown compleanno di lisy</title>
+	<title>Countdown all' anno nuovo</title>
 	<style>
 		body {
 			font-family: Arial, sans-serif;
@@ -13,13 +13,13 @@
 			font-size: 48px;
 			margin-top: 50px;
 			margin-bottom: 20px;
-			color: #ff0000;
+			color: #333;
 		}
 		
 		#countdown {
 			font-size: 64px;
 			font-weight: bold;
-			color: #333;
+			color: #ffff;
 			margin-bottom: 50px;
 		}
 		
@@ -35,12 +35,12 @@
 		
 		#countdown span.num {
 			background-color: #840058;
-			color: #FFF;
+			color: #ffff;
 		}
 	</style>
 </head>
 <body>
-	<h1>Countdown all' anno nuovo</h1>
+	<h1>Countdown all' anno nuovo🎆🎇</h1>
 	<div id="countdown"></div>
 	<script>
 
@@ -67,7 +67,7 @@
 			
 			if (distance < 0) {
 				clearInterval(x);
-				document.getElementById("countdown").innerHTML = "Buon anno nuovo";
+				document.getElementById("countdown").innerHTML = "Buon anno nuovo🥳";
 				countDownDate = new Date("January 1, " + (new Date().getFullYear() + 1) + " 00:00:00").getTime(); // Set the date for next year's countdown
 			}
 		}, 1000);
